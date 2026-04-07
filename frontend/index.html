@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MeetMind</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <h1> MeetMind</h1>
+    <p>Turning Conversations into Actionable Intelligence</p>
+  </header>
+
+  <!-- Upload -->
+  <section class="card">
+    <h3>Upload Transcript</h3>
+    <div class="upload-row">
+      <input type="file" id="fileInput" />
+      <button onclick="uploadFile()">Upload</button>
+    </div>
+    <p id="uploadStatus"></p>
+  </section>
+
+  <!-- Chat -->
+  <section class="card">
+    <h3>Ask Questions</h3>
+
+    <div id="chatContainer"></div>
+
+    <div class="input-row">
+      <textarea id="query" placeholder="Ask something..."></textarea>
+      <button onclick="askQuestion()">Send</button>
+    </div>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

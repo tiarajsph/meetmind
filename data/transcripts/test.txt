@@ -1,3 +1,5 @@
-John: We need to delay the API launch due to performance issues.
-Sarah: I'll fix the backend bugs by Friday.
-Mike: I'll update the documentation.
+Bob: I will send the draft by Thursday.
+Charlie: I will review the report.
+Bob: I will compile the sales data.
+Bob: I will schedule the meeting.
+Charlie: I will prepare the summary.
